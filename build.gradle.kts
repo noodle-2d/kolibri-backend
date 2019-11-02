@@ -20,6 +20,7 @@ subprojects {
 
     val kotlinVersion = "1.3.50"
     val grpcVersion = "1.24.0"
+    val javaxAnnotationVersion = "1.3.2"
     val protocVersion = "3.9.0"
 
     repositories {
@@ -31,6 +32,7 @@ subprojects {
         "implementation"("io.grpc:grpc-netty-shaded:$grpcVersion")
         "implementation"("io.grpc:grpc-protobuf:$grpcVersion")
         "implementation"("io.grpc:grpc-stub:$grpcVersion")
+        "implementation"("javax.annotation:javax.annotation-api:$javaxAnnotationVersion")
 
         "testImplementation"("org.jetbrains.kotlin:kotlin-test:$kotlinVersion")
         "testImplementation"("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
