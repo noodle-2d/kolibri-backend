@@ -8,7 +8,7 @@ option java_package = "com.ran.kolibri.service.idp";
 import "idp/sign-in.proto";
 import "idp/sign-up.proto";
 
-service KolibriIdpService {
+service IdpService {
     rpc SignUp (idp.SignUpRequest) returns (idp.SignUpResponse);
     rpc SignIn (idp.SignInRequest) returns (idp.SignInResponse);
 }
