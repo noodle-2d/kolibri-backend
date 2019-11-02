@@ -5,5 +5,5 @@ dependencies {
 }
 
 application {
-    mainClassName = "com.ran.kolibri.idp.api.IdpApiKt"
+    mainClassName = "com.ran.kolibri.idp.api.MainKt"
 }
